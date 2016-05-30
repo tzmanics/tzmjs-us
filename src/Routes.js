@@ -4,12 +4,15 @@ import { browserHistory, IndexRoute, Route, Router } from 'react-router'
 
 import App from './containers/App'
 import Home from './containers/Home'
-import './styles/main.scss'
+import Rsvp from './containers/Rsvp'
+import Registry from './containers/Registry'
 
 let routes = (
-  <Router history={ browserHistory }>
+  <Router history={browserHistory}>
     <Route path='/' component={App}>
       <IndexRoute component={Home} />
+      <Route path='rsvp' component={Rsvp} />
+      <Route path='registry' component={Registry} />
     </Route>
   </Router>
 )

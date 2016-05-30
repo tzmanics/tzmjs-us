@@ -1,11 +1,15 @@
 import React, { createClass } from 'react'
 import { Link } from 'react-router'
 
-let Header = createClass({
+const Header = createClass({
   render () {
     return (
       <header>
-        <Link to='/'>Menu</Link>
+        <ul>
+          <li><Link to='/rsvp'>RSVP</Link></li>
+          <li><Link to='/'>US</Link></li>
+          <li><Link to='/registry'>REGISTRY</Link></li>
+        </ul>
       </header>
     )
   }
