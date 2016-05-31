@@ -1,1 +1,9 @@
-@import 'config/fonts'
+// Config
+@import
+  'config/colors',
+  'config/fonts',
+  'config/global';
+
+// Partials
+@import
+  'partials/navigation';

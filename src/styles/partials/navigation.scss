@@ -1,0 +1,45 @@
+// HEADER
+#header {
+  position: relative;
+  width: 100%; height: 150px;
+  background: $color-accent;
+}
+
+// NAVIGATION
+#navigation {
+  position: relative;
+  width: 100%; height: 50px;
+  background: $color-base;
+  text-align: center;
+  line-height: 50px;
+
+  ul {
+    display: flex;
+    min-width: 450px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    list-style: none;
+    li {
+      font-size: 1.7em;
+      a {
+        height: inherit;
+        padding: 0 25px;
+        display: inline-block;
+        transition: all 150ms ease;
+        line-height: inherit;
+        text-decoration: none;
+        color: black;
+        &:hover {
+          background: $color-accent;
+          color: $color-base;
+        }
+      }
+    }
+  }
+  &.fixed {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+  }
+}

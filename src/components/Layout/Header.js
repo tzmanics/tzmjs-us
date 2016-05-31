@@ -5,11 +5,13 @@ const Header = createClass({
   render () {
     return (
       <header>
-        <ul>
-          <li><Link to='/rsvp'>RSVP</Link></li>
-          <li><Link to='/'>US</Link></li>
-          <li><Link to='/registry'>REGISTRY</Link></li>
-        </ul>
+        <nav id='navigation'>
+          <ul>
+            <li><Link to='/rsvp'>RSVP</Link></li>
+            <li><Link to='/'>INVITE</Link></li>
+            <li><Link to='/registry'>REGISTRY</Link></li>
+          </ul>
+        </nav>
       </header>
     )
   }
