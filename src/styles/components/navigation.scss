@@ -30,9 +30,9 @@
         transition: all 150ms ease;
         line-height: inherit;
         text-decoration: none;
-        color: black;
+        color: darkslategrey;
         &:hover {
-          background: $color-accent;
+          background: $highlight-orange;
           color: $color-base;
         }
       }
