@@ -5,3 +5,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+body {
+  text-align: center;
+  color: $highlight-orange;
+  h1 {
+    font-size: 2em;
+  }
+  h1, h2, h3, h4, p {
+    font-weight: 100;
+  }
+}
+

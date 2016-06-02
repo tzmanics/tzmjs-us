@@ -6,14 +6,9 @@
   border-color: $highlight-orange;
   .invite-section, .invite-footer {
     margin: 3em 0 0 0;
-    color: $highlight-orange;
     text-align: right;
     h1, h2, h3, h4 {
-      font-weight: 100;
       margin: 0;
-    }
-    h1 {
-      font-size: 2em;
     }
   }
   .invite-footer {

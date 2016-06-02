@@ -6,8 +6,8 @@ import Invitation from '../components/Invitation'
 let Home = createClass({
   render () {
     return (
-      <DefaultLayout classes="page-home">
-        <div className="main-container container">
+      <DefaultLayout classes='page-home'>
+        <div className='main-container container'>
           <Invitation />
         </div>
       </DefaultLayout>
