@@ -4,10 +4,8 @@
   'config/fonts',
   'config/global';
 
-// Partials
-@import
-  'components/navigation';
-
 // Components
 @import
-  'components/invite';
+  'components/navigation',
+  'components/invite',
+  'components/rsvp-form';
