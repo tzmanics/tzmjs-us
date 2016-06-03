@@ -7,7 +7,7 @@ let Rsvp = createClass({
   render () {
     return (
       <DefaultLayout classes='page-home'>
-        <div className='rsvp-container'>
+        <div className='rsvp-section'>
           <RsvpForm />
         </div>
       </DefaultLayout>

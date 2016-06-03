@@ -1,9 +1,11 @@
 import React, { createClass } from 'react'
 
+let containerClasses = 'invite-container container'
+
 const Invitation = createClass({
   render () {
     return (
-      <div className='invite-container container'>
+      <div className={containerClasses}>
         <div className='invite-section'>
           <h3>together with their families</h3>
           <h1>TARA ZVEZDA MANICSIC &amp;</h1>

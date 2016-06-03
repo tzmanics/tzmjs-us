@@ -7,7 +7,7 @@ let Home = createClass({
   render () {
     return (
       <DefaultLayout classes='page-home'>
-        <div className='main-container container'>
+        <div className='main-container'>
           <Invitation />
         </div>
       </DefaultLayout>
