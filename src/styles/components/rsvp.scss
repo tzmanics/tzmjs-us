@@ -3,4 +3,39 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 400px;
+  p {
+    color: white;
+    margin: 0;
+  }
+  h3 {
+    margin: .5em;
+  }
+  form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    color: $highlight-orange;
+    padding-left: 1em;
+    input[type=text], input[type=textarea] {
+      width: 100%;
+      font-size: 1em;
+    }
+    input[type=radio] {
+      margin-left: 1em;
+    }
+    input[type=radio]:last-of-type {
+      margin-left: 1.5em;
+    }
+    button {
+      border-color: $highlight-orange;
+      background-color: white;
+      font-size: 1em;
+      color: $highlight-orange;
+      cursor: pointer;
+    }
+    .button-space {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+  }
 }
