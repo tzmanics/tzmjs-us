@@ -1,0 +1,15 @@
+.info-container {
+  background-image: url('../assets/images/forest.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em;
+  color: $highlight-orange;
+  .invite-section, .invite-footer {
+    margin: 3em 0 0 0;
+    text-align: center;
+    h1, h2, h3, h4 {
+      margin: 0;
+    }
+  }
+}
+

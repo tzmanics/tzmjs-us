@@ -9,6 +9,7 @@ const Header = createClass({
           <ul>
             <li><Link to='/rsvp'>RSVP</Link></li>
             <li><Link to='/'>INVITE</Link></li>
+            <li><Link to='/info'>INFO</Link></li>
             <li><Link to='/registry'>REGISTRY</Link></li>
           </ul>
         </nav>
