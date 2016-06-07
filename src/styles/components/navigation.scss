@@ -4,15 +4,14 @@ header {
 }
 
 // NAVIGATION
+
 #navigation {
-  position: relative;
   width: 100%; height: 50px;
   text-align: center;
   line-height: 50px;
 
   ul {
     display: flex;
-    min-width: 450px;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
@@ -36,8 +35,5 @@ header {
       }
     }
   }
-  &.fixed {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-  }
 }
+
