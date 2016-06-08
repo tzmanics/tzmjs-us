@@ -1,0 +1,27 @@
+.registry-container{
+  text-align: left;
+  .registry-intro {
+  }
+  .registry-item {
+    width: 127px;
+    height: 210px;
+    margin: 0 11px 12px 0;
+    float: left;
+    .item-image {
+      height: 127px;
+      width: 127px;
+      background-image: url('../assets/images/pass.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    p {
+      margin: 0;
+      font-size: 18px;
+    }
+    .item-price {
+      text-align: right;
+      padding-top: 5px;
+    }
+  }
+}
+
