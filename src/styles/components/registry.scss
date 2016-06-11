@@ -1,6 +1,10 @@
 .registry-container{
   text-align: left;
-  .registry-intro {
+  a {
+    color: $color-accent;
+  }
+  div.registry-item:hover {
+    background-color: $highlight-light;
   }
   .registry-item {
     width: 127px;
