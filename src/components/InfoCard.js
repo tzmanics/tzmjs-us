@@ -42,10 +42,10 @@ const InfoCard = createClass({
           <h2>LODGING</h2>
           <div className='info-text'>
             <p>
-              We've reserved a block of rooms at the nearest hotel: <Link
-              to='https://goo.gl/maps/YB18cjcq1Ds'>Quality Inn &amp;
-              Suites</Link> under Manicsic or Swaidan. There are also
-              <Link to='http://bit.ly/1VAyR4F'> airbnb.com</Link> rentals
+              We've reserved a block of rooms at the nearest hotel:
+              <a href='https://goo.gl/maps/YB18cjcq1Ds'>Quality Inn &amp;
+              Suites</a> under Manicsic or Swaidan. There are also
+              <a href='http://bit.ly/1VAyR4F'> airbnb.com</a> rentals
               close by.
             </p>
           </div>
